@@ -1,0 +1,14 @@
+$width: calc(100vh - 65px);
+.adminPage-contaner {
+  min-height: $width;
+  width: 100%;
+  background: rgb(221, 221, 221);
+  display: flex;
+  justify-content: center;
+}
+
+.workplace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

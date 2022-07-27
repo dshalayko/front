@@ -1,0 +1,74 @@
+$fontStyleNormal: normal;
+$fontWeightNormal: normal;
+$whiteColor: #FFFFFF;
+$specialGreenColor: #4A9B57;
+
+#rotate {
+  position: absolute;
+  left: 5%;
+  top: 60%;
+  z-index: 2;
+  font-size: 1.5em;
+  width: 20px;
+  transform: rotate(-45deg)
+}
+
+.auth-bold-white-text {
+  // margin-top: 30px;
+  font-style: $fontStyleNormal;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.333333px;
+  line-height: 37px;
+  text-align: center;
+  color: $whiteColor;
+}
+
+.fileInput {
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10;
+  height: 50px;
+  position: absolute;
+}
+
+.step2-mate {
+  padding-top: 15px;
+}
+
+.step2-attach-photo {
+  cursor: pointer;
+  position: relative;
+  height: 50px;
+  padding-top: 15px;
+}
+
+.field {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+
+
+.step2-btnStyle-attach-photo {
+  cursor: pointer;
+  width: 320px;
+  height: 55px;
+  color: $whiteColor;
+  background-color: $specialGreenColor;
+  border-radius: 10px;
+  border-width: 0;
+  margin: -5px 8px 0 0;
+}
+
+.backBtn {
+  text-align: left;
+  cursor: pointer;
+  // padding-top: 32px;
+}
+
+.attachPhoto-Container {
+  text-align: center;
+  color: $whiteColor;
+  width: 360px;
+}

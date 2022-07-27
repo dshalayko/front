@@ -1,0 +1,19 @@
+.catalog-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 75%;
+  cursor: pointer;
+  background-size: cover;
+  border: 5px solid green;
+  margin: 5px;
+}
+
+@media screen and (max-width: 480px) {
+  .catalog-element {
+    width: 90px;
+    height: 90px;
+  }
+}

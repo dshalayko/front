@@ -1,0 +1,38 @@
+.managers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.new-manager-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.new-manager-input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 10px;
+}
+
+.all-managers-card {
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
+}
+.manager-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+}
+.no-managers-title {
+  text-align: center;
+  font-size: 1.5rem;
+}

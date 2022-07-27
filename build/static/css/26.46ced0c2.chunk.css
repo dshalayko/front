@@ -1,0 +1,2 @@
+.catalog-element{display:flex;align-items:center;justify-content:center;width:120px;height:120px;border-radius:75%;cursor:pointer;background-size:cover;border:5px solid green}@media screen and (max-width:480px){.catalog-element{width:80px;height:80px}}.catalog-container{display:flex;justify-content:space-evenly;flex-flow:row wrap;margin-top:5%}
+/*# sourceMappingURL=26.46ced0c2.chunk.css.map */

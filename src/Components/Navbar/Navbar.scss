@@ -1,0 +1,75 @@
+$z-index_navbar: 100;
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  max-width: 100% !important;
+  padding: 0 5% 0 5%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: $z-index_navbar;
+}
+
+.navbar-logo {
+  position: relative;
+  left: 0;
+  z-index: $z-index_navbar;
+}
+
+.addToCart {
+  visibility: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: $z-index_navbar;
+  position: relative;
+}
+
+.cart-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: -4px;
+  color: green;
+  font-size: 12px;
+  line-height: 11px;
+  font-weight: 500;
+  border: 2px solid #000000b2;
+}
+.admin-btn {
+  text-decoration: none;
+}
+
+.navbar-popover {
+  width: 100%;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-popover-link {
+  margin: 15px 0 10px 0;
+  text-decoration: none;
+  color: #4a9b57;
+  font-size: 1.4rem !important;
+}
+
+@media screen and (max-width: 780px) {
+  .navbar {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .navbar-logo {
+    font-size: 1.7em;
+  }
+}

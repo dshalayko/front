@@ -1,0 +1,19 @@
+.orders-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  // border: solid 1px red;
+}
+.accordion-title {
+  width: 100%;
+  // padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.accordion-details {
+  display: flex;
+  flex-direction: column;
+  // border-radius: 10px;
+}

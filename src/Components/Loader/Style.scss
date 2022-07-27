@@ -1,0 +1,14 @@
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  z-index: 1000;
+
+  &-title {
+    color: white;
+    margin: 20px 0;
+  }
+}

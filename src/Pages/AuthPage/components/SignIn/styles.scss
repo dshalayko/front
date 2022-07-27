@@ -1,0 +1,228 @@
+$fontStyleNormal: normal;
+$fontWeightNormal: normal;
+$whiteColor: #ffffff;
+$specialGreenColor: #4a9b57;
+
+.text-color {
+  color: $specialGreenColor;
+}
+
+$fontStyleNormal: normal;
+$fontWeightNormal: normal;
+$whiteColor: #ffffff;
+
+.main-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.main-page-paperStyle {
+  position: absolute;
+  z-index: 10;
+  padding: 20px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+//.dark-side {
+//  position: fixed;
+//  left: 0;
+//  right: 0;
+//  z-index: 6;
+//  top: 0;
+//  height: 100%;
+//  background: rgba(0, 0, 0, 0.7);
+//}
+
+.main-grid .MuiPaper-root {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(8px);
+}
+
+.main-page-btnStyle-initial {
+  width: 320px;
+  cursor: pointer;
+  height: 55px;
+  margin: 300px 0 8px 0;
+  color: #ffffff;
+  background-color: $whiteColor;
+  border-radius: 10px;
+  border-width: 0;
+}
+
+.main-page-btnStyle-initial span {
+  width: 110px;
+  height: 28px;
+  font-style: $fontStyleNormal;
+  font-weight: $fontWeightNormal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #4a9b57;
+}
+
+.main-page-text {
+  font-style: $fontStyleNormal;
+  font-weight: $fontWeightNormal;
+  font-size: 16px;
+  padding-top: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: $whiteColor;
+}
+
+.main-page-underline-text {
+  cursor: pointer;
+  font-style: $fontStyleNormal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 1px solid $whiteColor;
+  color: $whiteColor;
+}
+
+.auth-logo {
+  font-size: 32px;
+  line-height: 37px;
+  font-style: normal;
+  font-weight: normal;
+  color: $whiteColor;
+}
+
+.signin-whiteText {
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  color: $whiteColor;
+}
+
+.signin-textContainer {
+  text-align: center;
+  color: $whiteColor;
+}
+
+.signin-login {
+  position: relative;
+  height: 45px;
+  padding-top: 45px;
+}
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login {
+  position: absolute;
+  left: 5%;
+  top: 70%;
+  font-size: 1.5em;
+  width: 20px;
+}
+
+.main-grid .MuiInputBase-input {
+  font-family: "Font Awesome 5 Free", sans-serif !important;
+  height: 50px !important;
+  background: $whiteColor !important;
+  color: $specialGreenColor !important;
+  border-radius: 10px;
+  padding-left: 50px !important;
+}
+
+.input-base {
+  font-family: "Font Awesome 5 Free", sans-serif;
+  height: 50px;
+  width: 260px;
+  background: $whiteColor;
+  color: $specialGreenColor;
+  border-radius: 10px;
+  padding-left: 60px;
+  font-size: 1.3em;
+}
+
+::placeholder {
+  color: $specialGreenColor;
+}
+
+.signin-underline-text {
+  cursor: pointer;
+  width: 150px;
+  margin: 65px 0 0 0;
+  text-decoration: underline;
+  color: $whiteColor;
+  // border-bottom: 1px solid $whiteColor;
+}
+
+.sign-btnStyle-pressed {
+  width: 320px;
+  height: 55px;
+  cursor: pointer;
+  color: $whiteColor;
+  margin: 50px 0 8px 0;
+  background-color: $specialGreenColor;
+  border-radius: 10px;
+  border-width: 0;
+}
+.error-red {
+  // margin: 10px;
+  margin: 10px 5%;
+  background-color: #eb5757;
+  opacity: 0.9;
+  border-radius: 10px;
+  max-width: 300px;
+}
+
+#login-plus {
+  position: absolute;
+  left: 13%;
+  top: 72%;
+  font-size: 1em;
+  width: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .main-grid .MuiPaper-root {
+    display: flex;
+    justify-content: center;
+    background: transparent !important;
+    backdrop-filter: none;
+  }
+
+  .main-page-paperStyle {
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main-page-paperStyle {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main-page-paperStyle {
+    width: 280px;
+  }
+
+  .input-base {
+    width: 240px;
+    margin: 0 20px;
+  }
+
+  #login {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    font-size: 1.5em;
+    width: 20px;
+  }
+  #login-plus {
+    left: 17%;
+    top: 74%;
+  }
+}

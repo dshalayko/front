@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./assets/opt-bg-img.jpg);
+  background-position: 20% 40%;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-size: cover;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 780px) {
+  body {
+    background-image: url(./assets/opt-bg-img2.jpg);
+    background-position: 43% 50%;
+  }
+}
